@@ -30,7 +30,12 @@ function playRound(playerSelection, computerSelection) {
 /** 
  * Function to update the result message
  */
-
+function updateResult(roundResult, gameResult) {
+  const roundResultElement = document.getElementById("round-result");
+  const gameResultElement = document.getElementById("game-result");
+  roundResultElement.textContent = roundResult;
+  gameResultElement.textContent = gameResult;
+}
 
 
 /** 
