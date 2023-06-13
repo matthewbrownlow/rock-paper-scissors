@@ -43,43 +43,39 @@ function updateResult(roundResult, gameResult) {
  * The game keeps track of scores, updates the results after each round,
  * and determines the winner once either the player or the computer reaches a score of 5.
  */
-function game() {
+ function game() {
     let playerScore = 0;
     let computerScore = 0;
-    const choices = document.getElementsByClassName("choices");
-
-    function handleClick(event) {
-        const playerSelection = event.target.id;
+    const choices = document.querySelectorAll(".choice");
+  
+    choices.forEach((choice) => {
+      choice.addEventListener("click", function () {
+        const playerSelection = choice.id;
         const computerSelection = computerPlay();
         const roundResult = playRound(playerSelection, computerSelection);
-    }
-      
-    choices.forEach(choice => {
-        choice.addEventListener("click", handleClick);
-    });
-
-    if (roundResult.includes("win")) {
-        playerScore++;
-      } else if (roundResult.includes("lose")) {
-        computerScore++;
-    }
-
-    updateResult(roundResult, "Player: " + playerScore + " Computer: " + computerScore);
-
-    if (playerScore === 5 || computerScore === 5) {
-        let gameResult;
-        if (playerScore > computerScore) {
-            gameResult = "You win the game!";
-        } else {
-            gameResult = "You lose the game!";
+  
+        if (roundResult.includes("win")) {
+          playerScore++;
+        } else if (roundResult.includes("lose")) {
+          computerScore++;
         }
-        
-        updateResult(roundResult, gameResult);
-        playerScore = 0;
-        computerScore = 0;
-    }
-}
-
-/**
- * Start the game
- */
+  
+        updateResult(roundResult, "Player: " + playerScore + " Computer: " + computerScore);
+  
+        if (playerScore === 5 || computerScore === 5) {
+          let gameResult;
+          if (playerScore > computerScore) {
+            gameResult = alert("You win the game!");
+          } else {
+            gameResult = alert("You lose the game!");
+          }
+          updateResult(roundResult, gameResult);
+          playerScore = 0;
+          computerScore = 0;
+        }
+      });
+    });
+  }
+  
+  // Start the game
+  game();
