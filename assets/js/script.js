@@ -9,10 +9,23 @@ function computerPlay() {
 }
 
 /** 
- * Function to determine the winner of the game
+ * When this function is called, it takes the player's and computer's choices,
+ * determines the outcome of a round in the "rock, paper, scissors" game,
+ * and returns a string indicating whether the player won, lost, or tied the round
  * */
-
-
+function playRound(playerSelection, computerSelection) {
+    if (
+        (playerSelection === "rock" && computerSelection === "scissors") ||
+        (playerSelection === "scissors" && computerSelection === "paper") ||
+        (playerSelection === "paper" && computerSelection === "rock")
+        ) {
+        return "You win! " + playerSelection + " beats " + computerSelection;
+        } else if (playerSelection === computerSelection) {
+        return "It's a tie!";
+        } else {
+        return "You lose! " + computerSelection + " beats " + playerSelection;
+        }
+    }
 
 /** 
  * Function to update the result message
