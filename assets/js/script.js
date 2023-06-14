@@ -44,7 +44,7 @@ function updateResult(roundResult, gameResult) {
  * The game keeps track of scores, updates the results after each round,
  * and determines the winner once either the player or the computer reaches a score of 5.
  */
- function game() {
+function game() {
     let playerScore = 0;
     let computerScore = 0;
     const choices = document.querySelectorAll(".choice");
@@ -76,7 +76,7 @@ function updateResult(roundResult, gameResult) {
         }
       });
     });
-  }
+}
   
   // Start the game
   game();

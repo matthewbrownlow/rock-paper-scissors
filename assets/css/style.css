@@ -14,7 +14,7 @@ body {
   .options {
     margin: auto;
     width: 45%;
-    background-color: lightpink;
+    background-color: #ffb6c1;
     border-radius: 10px;
     padding: 20px;
   }
@@ -31,7 +31,7 @@ body {
     margin: auto;
     margin-top: 10px;
     width: 45%;
-    background-color: lightblue;
+    background-color: #add8e6;
     border-radius: 10px;
     padding: 20px;
   }
@@ -46,6 +46,6 @@ body {
     margin: auto;
     margin-top: 10px;
     width: 45%;
-    background-color: lightgoldenrodyellow;
+    background-color: #fafad2;
     border-radius: 10px;
   }
