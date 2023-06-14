@@ -13,30 +13,26 @@ body {
   
   .options {
     margin: auto;
-    width: 40%;
-    border: 1px solid black;
-    background-color: blue;
-    border-radius: 25px;
+    width: 45%;
+    background-color: lightpink;
+    border-radius: 10px;
     padding: 20px;
   }
 
   .how-to-play {
     margin: auto;
     margin-top: 10px;
-    width: 40%;
-    border: 1px solid black;
-    background-color: red;
-    border-radius: 25px;
+    width: 45%;
+    border-radius: 10px;
     padding: 20px;
   }
 
   .rules {
     margin: auto;
     margin-top: 10px;
-    width: 40%;
-    border: 1px solid black;
-    background-color: yellow;
-    border-radius: 25px;
+    width: 45%;
+    background-color: lightblue;
+    border-radius: 10px;
     padding: 20px;
   }
   
@@ -47,4 +43,9 @@ body {
   
   .result {
     font-size: 18px;
+    margin: auto;
+    margin-top: 10px;
+    width: 45%;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
   }
