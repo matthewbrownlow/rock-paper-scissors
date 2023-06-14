@@ -43,33 +43,33 @@
 
 #### **Title/ Logo**
 
-![TextHere](assets/images/readme.md/rps-heading-logo-title.png)
+![Screenshot of the heading logo title](assets/images/readme.md/rps-heading-logo-title.png)
 
-- Text Here...
+- The heading text/ icon logo is simplistic is design and scripts exactly what this website represents. The `Font Awesome` icons represent the different choices in the game: `rock` (a closed fist), `paper` (an open hand), or `scissors` (the index and middle fingers extended).
 
 #### **Choices**
 
-![TextHere](assets/images/readme.md/choices-section.png)
+![Screenshot of the game buttons](assets/images/readme.md/choices-section.png)
 
-- Text Here...
+- This section displays the game buttons with their corresponding choices and once again, `Font Awesome` icons (keeping with the theme).
 
 #### **How to Play**
 
-![TextHere](assets/images/readme.md/how-to-play-section.png)
+![Screenshot of the How-to-Play section](assets/images/readme.md/how-to-play-section.png)
 
-- Text Here...
+- This section exhibits the `How-to-Play` steps for players who needs a visial dialog on how to play.
 
 #### **Rules**
 
-![TextHere](assets/images/readme.md/rules-section.png)
+![Screenshot of the game rules section](assets/images/readme.md/rules-section.png)
 
-- Text Here...
+- This section displays the `Game Rules` for players who need a visial dialog on the corresponding game rules.
 
 #### **Results**
 
-![TextHere](assets/images/readme.md/result-sections.png)
+![Screenshot of the game results mid game](assets/images/readme.md/result-sections.png)
 
-- Text Here...
+- This section appears once the player has pressed one of the buttons for the first time, displying the `Game Results` in real time.
 
 ### **computerPlay( ) Function**
 
@@ -97,21 +97,19 @@
 
 ## **Validator Testing**
 
-**HTML**
+**HTML Markup**
 
 ![Screenshot of ](assets/images/readme.md/w3c-markup-validator-results.png)
 
-- No errors were returned when passing through the official [W3C validator](url)
+- No errors were returned when passing through the official [W3C HTML Markup Validator](https://validator.w3.org/#validate_by_input)
 
-**CSS**
+**CSS Styling**
 
 ![Screenshot of ](assets/images/readme.md/w3s-css-validator-results.png)
 
-- No errors were found when passing through the official [(Jigsaw) validator](url)
+- No errors were found when passing through the official [(Jigsaw) CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 **JavaScript**
-
-![Screenshot of ](assets/images/readme.md)
 
 - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
     - The following metrics were returned: 
@@ -125,3 +123,21 @@
 ![Screenshot of Chrome Lighthouse](assets/images/readme.md/lighthouse-validator-results.png)
 
 - Lighthouse is an open-source, automated auditing tool for improving the quality of web pages.
+
+## **Deployment**
+
+- The site was deployed to `GitHub` pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the `Settings` tab
+    - On the left-hand-side, under the `Code and automation` options, select `Pages`
+    - From the `Branch` drop-down menu, select `main`.
+    - Once the `main` branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment; enclosing a live `URL` to the project website hosted by GitHub.
+
+> [Click here to view the live website on GitHub Pages](https://matthewbrownlow.github.io/rock-paper-scissors/) Please note: To open any links in this document in a new browser tab, please press `Cmd ⌘ + Click` (Mac) or `CTRL + Click` (Windows/Linux)
+
+## **Credits**
+
+- [Code Institute](https://codeinstitute.net/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [YouTube](https://www.youtube.com/)
+- [W3School](https://www.w3schools.com/)
