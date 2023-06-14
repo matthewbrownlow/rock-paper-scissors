@@ -25,6 +25,7 @@ function playRound(playerSelection, computerSelection) {
         } else {
             return "You lose! " + computerSelection + " beats " + playerSelection;
         }
+
     }
 
 /** 
